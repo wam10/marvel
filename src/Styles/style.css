@@ -1,0 +1,185 @@
+body{
+    background-image: url('../pxfuel.jpg');
+    background-size: cover;
+}
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    align-items: center;
+}
+
+.logo{
+    align-self: stretch;
+    height: 50%;
+    width: 15%;
+    margin: 2% 5% 0% 5%;
+}
+
+.margen{
+    margin-right: 40px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.text_oro{
+    color: #efb810;
+    font-size: 23px;
+    background-color: rgb(31, 28, 28);
+    height: 34%;
+    padding: 35px 10px 25px 10px;
+    cursor: pointer;
+}
+
+.personaje{
+    position: relative;
+    display: flex;
+    color: white;
+    width: 100%;
+    height: 390px;  
+    font-size: 20px;
+    text-align: center;
+}
+
+.heroe{
+    bottom: 10px;
+    width: 250px;
+    height: 320px;     
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.borde{
+    background-color: rgb(53, 49, 49);
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px 0 10px 0;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    position: relative;
+    top: -100px;
+}
+
+.progreso{
+    display: flex;
+    color: white;
+    width: 100%;
+    height: 105px;
+    text-align:left;
+}
+
+.dimensiones{
+    bottom: 0px;
+    width: 520px;
+    height: 105px;     
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(17, 17, 17);
+    text-align: center;    
+}
+
+progress{
+    height: 25px;
+    width: 460px;
+    margin-top: 3px;
+    transform: skewX(-15deg);
+    border-radius: 0px;
+}
+
+.maximo{
+    margin: 10px 0px 0px 0px;
+    color: #efb810;
+    font-size: 15px;
+    line-height: 12px;
+    text-align: right;
+    padding-right: 28px;
+}
+
+.value{
+    margin: 0px 0px 0px 0px;
+    color: rgb(43, 43, 219);
+    font-size: 15px;
+    line-height: 12px;
+    text-align: right;
+    padding-right: 150px;
+
+}
+
+.video{
+    height: 105px;
+    width: 385px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;    
+    margin-bottom: 2px;
+}
+
+.imagen{
+    height: 105px;
+    width: 385px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;    
+    margin-bottom: 2px;
+}
+
+
+
+
+
+
+.paginacion{
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+.paginacion ul{
+    text-align: center;
+    list-style: none;
+}
+
+.paginacion ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.paginacion ul li a{
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background: #024959;
+    text-decoration: none;
+}
+
+.paginacion ul li a:hover{
+    background: #037e8C; 
+}
+
+.paginacion ul li .active{
+    background: #037e8C;
+    font-weight: bold;
+}
+
+.paginas{
+    text-align: center;
+    color:#efb810;
+    font-size: 30px;    
+}
+.paginas button{
+    padding: 0px;
+    background-color: rgb(35, 35, 214);
+    height: 30px;
+    width: 50px;
+    font-size: 20px;
+    align-items: center;
+}

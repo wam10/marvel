@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Datos de la Api Marvel
+
+https://developer.marvel.com/docs
+https://developer.marvel.com/documentation/authorization
+https://gateway.marvel.com:443/v1/public/characters?apikey=
+Your public key: 991b76fed1402ecd7db9637229f4fe08
+Your private key: 0113ee53c3b37395952c5f6c244a0ee4a2c676fa
+ts=1
+10113ee53c3b37395952c5f6c244a0ee4a2c676fa991b76fed1402ecd7db9637229f4fe08
+MD5 Hash: 2d791442344c3bd60353ec8f11c38d1b
+npm install react-player --save
+import ReactPlayer
